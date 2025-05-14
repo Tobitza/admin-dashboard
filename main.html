@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-grid-container">
-        <div class="sidebar-container">
+    <div class="sidebar-container">
+        <div class="sidebar-top-section">
+            <div class="title-container">
+                <img href="" alt="logo">
+                <h1>Dashboard</h1>
+            </div>
             <button class="sidebar-title">Dashboard</button>
             <button class="sidebar-home">Home</button>
             <button class="sidebar-profile">Profile</button>
@@ -15,27 +20,66 @@
             <button class="sidebar-history">History</button>
             <button class="sidebar-tasks">Tasks</button>
             <button class="sidebar-groups">Groups</button>
+        </div>
+        <div class="sidebar-bottom-section">
             <button class="sidebar-settings">Settings</button>
             <button class="sidebar-support">Support</button>
             <button class="sidebar-privacy">Privacy</button>
         </div>
-        <div class="header-container">
-            <div class="search-container">
-
-            </div>
-            <div class="header-profile-container">
-
-            </div>
-            <div class="greet-container">Hi there, USER (@user)</div>
-            <div class="header-nav-buttons">
-                <button class="header-button-new">New</button>
-                <button class="header-button-upload">Upload</button>
-                <button class="header-button-share">Share</button>
-            </div>
+    </div>
+    <div class="header-container">
+        <div class="search-container">
+            <!--Search bar goes here-->
         </div>
-        <div class="main-content-container">
-            <!--TODO: Grid of projects on the left, announcements & trending on the right.-->
+        <div class="header-profile-container">
+            <!--Profile goes here-->
+        </div>
+        <div class="greet-container">Hi there, USER (@user)</div>
+        <div class="header-nav-buttons">
+            <button class="header-button-new">New</button>
+            <button class="header-button-upload">Upload</button>
+            <button class="header-button-share">Share</button>
         </div>
     </div>
+    <main class="main-container">
+        <div class="projects">
+            <h2>Your Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>1st Project</h3>
+                </div>
+                <div class="project-card">
+                    <h3>2nd Project</h3>
+                </div>
+                <div class="project-card">
+                    <h3>3rd Project</h3>
+                </div>
+                <div class="project-card">
+                    <h3>4th Project</h3>
+                </div>
+                <div class="project-card">
+                    <h3>5th Project</h3>
+                </div>
+                <div class="project-card">
+                    <h3>6th Project</h3>
+                </div>
+            </div>
+        </div>
+        <div class="announcements">
+            <h2>Announcements</h2>
+            <aside class="announce-container">
+                <div class="announce-card">1st Announcement</div>
+                <div class="announce-card">2nd Announcement</div>
+                <div class="announce-card">3rd Announcement</div>
+            </aside>
+        </div>
+        <div class="trending">
+            <aside class="trending-container">
+                <div class="trending-card">1st Trending</div>
+                <div class="trending-card">2nd Trending</div>
+                <div class="trending-card">3rd Trending</div>
+            </aside>
+        </div>
+    </main>
 </body>
 </html>
