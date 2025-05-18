@@ -5,26 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="sidebar-container">
         <div class="sidebar-top-section">
             <div class="title-container">
-                <img href="" alt="logo">
+                <img src="" alt="logo" class="sidebar-big-logo">
                 <h1>Dashboard</h1>
             </div>
-            <button class="sidebar-title">Dashboard</button>
-            <button class="sidebar-home">Home</button>
-            <button class="sidebar-profile">Profile</button>
-            <button class="sidebar-messages">Messages</button>
-            <button class="sidebar-history">History</button>
-            <button class="sidebar-tasks">Tasks</button>
-            <button class="sidebar-groups">Groups</button>
+            <ul>
+                <li class="sidebar-title">
+                    <a href="">Dashboard</a>
+                </li>
+                <li class="sidebar-home">
+                    <a href="">
+                        <img src="" class="sidebar-logo" alt="home">
+                        Home
+                    </a>
+                </li>
+                <li class="sidebar-profile">
+                    <a href="">
+                        <img src="" class="sidebar-logo" alt="profile">
+                        Profile
+                    </a>
+                </li>
+                <li class="sidebar-messages">
+                    <a href="">
+                        <img src="" class="sidebar-logo" alt="messages">
+                        Messages
+                    </a>
+                </li>
+                <li class="sidebar-history">
+                    <a href="">
+                        <img src="" class="sidebar-logo" alt="history">
+                        History
+                    </a>
+                </li>
+                <li class="sidebar-tasks">
+                    <a href="">
+                        <img src="" class="sidebar-logo" alt="tasks">
+                        Tasks
+                    </a>
+                </li>
+                <li class="sidebar-groups">
+                    <a href="">
+                        <img src="" class="sidebar-logo" alt="groups">
+                        Groups
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="sidebar-bottom-section">
-            <button class="sidebar-settings">Settings</button>
-            <button class="sidebar-support">Support</button>
-            <button class="sidebar-privacy">Privacy</button>
+            <li class="sidebar-settings">
+                <a href="">
+                    <img src="" class="sidebar-logo" alt="settings">
+                    Settings
+                </a>
+            </li>
+            <li class="sidebar-support">
+                <a href="">
+                    <img src="" class="sidebar-logo" alt="support">
+                    Support
+                </a>
+            </li>
+            <li class="sidebar-privacy">
+                <a href="">
+                    <img src="" class="sidebar-logo" alt="privacy">
+                    Privacy
+                </a>
+            </li>
         </div>
     </div>
     <div class="header-container">
@@ -36,9 +89,9 @@
         </div>
         <div class="greet-container">Hi there, USER (@user)</div>
         <div class="header-nav-buttons">
-            <button class="header-button-new">New</button>
-            <button class="header-button-upload">Upload</button>
-            <button class="header-button-share">Share</button>
+            <li class="header-button-new">New</li>
+            <li class="header-button-upload">Upload</li>
+            <li class="header-button-share">Share</li>
         </div>
     </div>
     <main class="main-container">
